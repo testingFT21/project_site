@@ -69,3 +69,7 @@ body {
   border: 2px solid #f4dff4;
   border-radius: 1rem 0;
 }
+
+.header__nav .header__menu-link.active {
+  color: black;
+}

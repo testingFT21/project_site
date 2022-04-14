@@ -94,9 +94,13 @@ body{
                 @include border($fontLight, 1rem);
                 &:hover{
                 @include border($bgLight, 1rem);
-                    
+                  
+                }
+                &.#{$name_active}{
+                    color: darken($color: $bgDark, $amount: 70%);
                 }    
             }
+
 
         }
     }
