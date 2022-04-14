@@ -1,0 +1,71 @@
+/*
+ mixin for border
+*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+html {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  font-size: 10px;
+}
+
+.style-head1, .header .logo {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #792879;
+  padding: 1vw;
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  top: 0;
+  z-index: 100;
+}
+
+.header__nav .header__menu-item {
+  display: inline-block;
+  margin-left: 4vw;
+}
+
+.header__nav .header__menu-link {
+  padding: 1vh;
+  text-transform: capitalize;
+  display: block;
+  font-size: 20px;
+  border: 2px solid #fff;
+  border-radius: 1rem 0;
+}
+
+.header__nav .header__menu-link:hover {
+  border: 2px solid #f4dff4;
+  border-radius: 1rem 0;
+}
